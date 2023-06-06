@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-bgc: rgb(50, 38, 52);
+}
+
+body{
+    background-color: var(--body-bgc);
+}
+.main{
+    height: 70%;
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    border: 3px solid black;
+}
+#demo{
+    height: 100%;
+    width: 100%;
+}
+.sub-main{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    border-radius: 100%;
+    left: -20%;
+    
+    background: linear-gradient(1650deg, rgb(151, 14, 74), rgb(86, 86, 91));
+}
+.sub-main img{
+    height: 22%;
+    width: 25%;
+    display: grid;
+    margin-top: 20px;
+    position: relative;
+    left: 55%;
+    top: 10%;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px solid #010101;
+}
+.sub-main img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05) ;
+}
+
